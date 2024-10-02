@@ -9,23 +9,30 @@ html{
 }
 
 body{
-    background-color: #000000;
-    color: #FFFFFF;
-    border-radius: 5px;
-   
+    background-color: white;
+    border-radius: 110px;
+    border: gray solid 2px;
 }
-header {
+header{
     background-color: gainsboro;
     color: black;
-    border-radius: 5px 5px 0 0;
-    padding: 10px 10px 0 10px;
+    border-radius: 10px 10px 0 0;
+    padding: 0 0 20px 0;
     text-align: center;
 }
 main{
-    background-color: gainsboro;
-    color: black;  
-    padding: 10px 10px 0 10px;
-    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px; 
+    text-align: center; 
+}
+p{
+    border:red solid 3px ;
+    padding: 20px;
+}
+span{
+    color: red ;
+    font-weight: bold;
 }
 footer{
     background-color: gainsboro;
